@@ -20,3 +20,7 @@ echo
 echo "+++ Consigna 5 +++"
 grep -v "^S" $FILE
 echo
+echo "+++ Consigna 6 +++"
+grep -E "\b[[:print:]]+@[[:print:]]+.[[:print:]]+" $FILE
+echo
+
