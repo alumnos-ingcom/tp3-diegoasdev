@@ -14,3 +14,6 @@ echo
 echo "+++ Consigna 3 +++"
 grep -E "[[:upper:]][[:lower:]]{2}. [[:digit:]]{1,2}, [2-9][[:digit:]]{3}" $FILE
 echo
+echo "+++ Consigna 4 +++"
+grep  "\([aeiou]\).\1" $FILE
+echo
