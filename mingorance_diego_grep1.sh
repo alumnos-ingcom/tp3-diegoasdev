@@ -17,3 +17,6 @@ echo
 echo "+++ Consigna 4 +++"
 grep  "\([aeiou]\).\1" $FILE
 echo
+echo "+++ Consigna 5 +++"
+grep -v "^S" $FILE
+echo
