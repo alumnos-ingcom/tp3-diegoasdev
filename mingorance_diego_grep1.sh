@@ -8,3 +8,6 @@ echo
 echo "+++ Consigna 1 +++"
 grep -E "[[:digit:]]{3}-[[:digit:]]{3}-[[:digit:]]{4} [xX][[:digit:]]{4}" $FILE
 echo
+echo "+++ Consigna 2 +++"
+grep -E "^[[:digit:]]{3} " $FILE
+echo
