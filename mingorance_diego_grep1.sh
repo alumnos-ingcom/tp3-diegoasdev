@@ -15,7 +15,7 @@ echo "+++ Consigna 3 +++"
 grep -E "[[:upper:]][[:lower:]]{2}. [[:digit:]]{1,2}, [2-9][[:digit:]]{3}" $FILE
 echo
 echo "+++ Consigna 4 +++"
-grep  "\([aeiou]\).\1" $FILE
+grep -E "(a.a)|(e.e)|(i.i)|(o.o)|(u.u)" $FILE
 echo
 echo "+++ Consigna 5 +++"
 grep -v "^S" $FILE
